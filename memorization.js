@@ -16,7 +16,7 @@ function saveName(){
   personName = input;
 }
 function getName(){
-  document.getElementById("name1").innerHTML = personName;
+  document.getElementById("name1").innerHTML = "Hello" + " " + personName;
 }
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
