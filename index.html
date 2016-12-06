@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css" />
+<script src="memorization.js"></script>
+<meta charset="UTF-8">
+<title>Memorization Tool</title>
+<h1 class="headerText">Memorization Tool <br>
+Choose one!</h1>
+</head>
+<body>
+  <div class="left">
+    <a href="videogames.html" onclick="check();">
+      <img src="videogames.jpg" class="grow">
+    </a>
+  </div>
+<div class="right">
+  <a href="sports.html" onclick="check();">
+    <img src="sports.jpg" class="grow">
+  </a>
+</div>
+<div id="footer">
+  <form class="inputFont">
+    Enter Name:<br>
+      <input type="text" name="name" class="submissionfield" id="save">
+    <input type="button" value="Submit" class="inputFont" onclick="saveName();">
+  </form>
+</div>
+</body>
+</html>
