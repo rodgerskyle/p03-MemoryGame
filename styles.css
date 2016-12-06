@@ -42,3 +42,8 @@ body {
 .tablePreset {
   text-align: center;
 }
+.nameClass {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
