@@ -1,18 +1,19 @@
 /*courtesy of http://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
 .imgWrap {
   position: relative;
-  height: 120px;
+  height: 130px;
   width: 120px;
 }
 
 .imgDescription {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 10;
   left: 0;
   right: 0;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
+  text-align: center;
 
 
   visibility: hidden;
