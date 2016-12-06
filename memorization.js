@@ -1,5 +1,4 @@
 var personName = "";
-var name = getCookie("name");
 function check(){
   if (personName == "") {
     event.preventDefault();
@@ -17,7 +16,7 @@ function saveName(){
   personName = input;
 }
 function getName(){
-  document.getElementById("name1").innerHTML = "Hello" + " " + name;
+  document.getElementById("name1").innerHTML = "Hello" + " " + getCookie("name");
 }
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
