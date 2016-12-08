@@ -1,6 +1,5 @@
 var personName;
 function check(){
-  var personName = getCookie("name");
   if (personName == "") {
     event.preventDefault();
     window.alert("Enter your name before proceeding!")
@@ -19,6 +18,9 @@ function saveName(){
 function getName(){
   var userInput = getCookie("name");
   document.getElementById("name1").innerHTML = "Hello" + " " + userInput;
+}
+function loadName(){
+  var personName = getCookie("name");
 }
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
