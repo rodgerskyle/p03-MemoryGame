@@ -1,5 +1,6 @@
-var personName = getCookie("name");
+var personName;
 function check(){
+  var personName = getCookie("name");
   if (personName == "") {
     event.preventDefault();
     window.alert("Enter your name before proceeding!")
