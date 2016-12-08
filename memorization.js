@@ -1,4 +1,4 @@
-var personName = "";
+var personName = getCookie("name");
 function check(){
   if (personName == "") {
     event.preventDefault();
