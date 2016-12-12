@@ -48,3 +48,9 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+.testInput {
+  width: 145px;
+  height: 20px;
+  font-size: 15px;
+  border: 2px solid red;
+}
