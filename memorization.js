@@ -42,7 +42,6 @@ function loadResults(){
   correct = correct / 25;
   correct = correct * 100;
   var wrongCorrect = getCookie("arrayCorrect");
-  wrongCorrect = wrongCorrect.split();
   if (wrongCorrect.indexOf("cardinals") != -1) {
     total = total + 1;
   }
