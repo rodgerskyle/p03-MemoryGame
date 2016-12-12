@@ -20,11 +20,11 @@ function saveName(){
   console.log(input);
   setCookie("name", input);
   personName = input;
+  document.getElementById("name1").disabled = true;
 }
 function getName(){
   var userInput = getCookie("name");
   document.getElementById("name1").innerHTML = "Hello" + " " + userInput + ",";
-  document.getElementById("name1").disabled = true;
 }
 function loadName(){
   var personName = getCookie("name");
