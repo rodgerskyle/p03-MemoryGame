@@ -41,7 +41,7 @@ function loadResults(){
   if (wrongCorrect.indexOf(cardinals) != -1) {
     total = total + 1;
   }
-  document.getElementById("resultText").innerHTML =
+  document.getElementById("resultText").innerHTML = correct;
 }
 function submitInput1(){
 var answer1;
