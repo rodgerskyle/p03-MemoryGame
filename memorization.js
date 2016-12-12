@@ -28,6 +28,9 @@ function getName(){
 }
 function loadName(){
 personName = getCookie("name");
+if (personName != ""){
+  document.getElementById("save").disabled = true;
+  }
 }
 function results(){
   setCookie("numberCorrect", amountCorrect);
