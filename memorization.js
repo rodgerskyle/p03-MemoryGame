@@ -43,13 +43,13 @@ function loadResults(){
   correct = correct * 100;
   var wrongCorrect = getCookie("arrayCorrect");
   wrongCorrect = wrongCorrect.split();
-  if (wrongCorrect.indexOf(cardinals) != -1) {
+  if (wrongCorrect.indexOf("cardinals") != -1) {
     total = total + 1;
   }
   wrongCorrect = wrongCorrect / 25;
   wrongCorrect = wrongCorrect * 100;
-  document.getElementById("resultText").innerHTML = correct + "%" + "correct." + "<br>"
-  + wrongCorrect + "%" + "correct names but wrong places."
+  document.getElementById("resultText").innerHTML = correct + "% " + "correct." + "<br>"
+  + wrongCorrect + "% " + "correct names but wrong places."
 }
 function submitInput1(){
 var answer1;
