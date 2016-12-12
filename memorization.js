@@ -1,4 +1,4 @@
-var personName;
+var personName = "";
 var stAnswers = [];
 var amountCorrect = 0;
 function check(){
