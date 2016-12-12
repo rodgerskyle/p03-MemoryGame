@@ -31,7 +31,7 @@ function loadName(){
 }
 function results(){
   setCookie("numberCorrect", amountCorrect);
-  stAnswers = stAnswers.join;
+  stAnswers = stAnswers.toString();
   setCookie("arrayCorrect", stAnswers);
 }
 function loadResults(){
