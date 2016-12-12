@@ -1,4 +1,4 @@
-var personName = "";
+var personName;
 var stAnswers = [];
 var amountCorrect = 0;
 function check(){
@@ -10,6 +10,10 @@ function check(){
     event.preventDefault();
     window.alert("Your name cannot consist of numbers!")
   }
+  else if (personName == undefined) {
+    event.preventDefault();
+    window.alert("Enter your name before proceeding!")
+  }
 }
 function saveName(){
   var input = document.getElementById("save").value;
@@ -19,7 +23,8 @@ function saveName(){
 }
 function getName(){
   var userInput = getCookie("name");
-  document.getElementById("name1").innerHTML = "Hello" + " " + userInput;
+  document.getElementById("name1").innerHTML = "Hello" + " " + userInput + ",";
+  document.getElementById("name1").disabled = true;
 }
 function loadName(){
   var personName = getCookie("name");
@@ -32,7 +37,7 @@ function results(){
 function loadResults(){
   var total = 0;
   var userInput = getCookie("name");
-  document.getElementById("name1").innerHTML = "Hello" + " " + userInput;
+  document.getElementById("name1").innerHTML = "Hello" + " " + userInput + ",";
   var correct = getCookie("numberCorrect");
   correct = correct / 25;
   correct = correct * 100;
