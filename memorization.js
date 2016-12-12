@@ -20,7 +20,7 @@ function saveName(){
   console.log(input);
   setCookie("name", input);
   personName = input;
-  document.getElementById("name1").disabled = true;
+  document.getElementById("save").disabled = true;
 }
 function getName(){
   var userInput = getCookie("name");
