@@ -46,76 +46,76 @@ function loadResults(){
   if (wrongCorrect.indexOf("cardinals") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("falcons") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("ravens") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("bills") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("panthers") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("bears") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("bengals") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("browns") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("cowboys") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("broncos") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("lions") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("packers") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("texans") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("colts") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("jaguars") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("chiefs") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("rams") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("dolphins") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("vikings") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("patriots") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("saints") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("giants") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("eagles") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("chargers") != -1) {
     total = total + 1;
   }
-  if (wrongCorrect.indexOf("cardinals") != -1) {
+  if (wrongCorrect.indexOf("buccaneers") != -1) {
     total = total + 1;
   }
   total = total / 25;
