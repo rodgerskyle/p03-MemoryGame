@@ -27,7 +27,7 @@ function getName(){
   document.getElementById("name1").innerHTML = "Hello" + " " + userInput + ",";
 }
 function loadName(){
-  var personName = getCookie("name");
+personName = getCookie("name");
 }
 function results(){
   setCookie("numberCorrect", amountCorrect);
