@@ -46,8 +46,80 @@ function loadResults(){
   if (wrongCorrect.indexOf("cardinals") != -1) {
     total = total + 1;
   }
-  wrongCorrect = wrongCorrect / 25;
-  wrongCorrect = wrongCorrect * 100;
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  if (wrongCorrect.indexOf("cardinals") != -1) {
+    total = total + 1;
+  }
+  total = total / 25;
+  total = total * 100;
   document.getElementById("resultText").innerHTML = correct + "% " + "correct." + "<br>"
   + total + "% " + "correct names but wrong places."
 }
